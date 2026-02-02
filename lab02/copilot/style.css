@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #24292f;
+}
+
+/* NAVIGATION */
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 40px;
+    border-bottom: 1px solid #eaeef2;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    width: 28px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #24292f;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-right input {
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid #d0d7de;
+    font-size: 13px;
+}
+
+.dashboard-btn {
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: 1px solid #d0d7de;
+    background: white;
+    cursor: pointer;
+}
+
+/* HERO */
+
+.hero {
+    text-align: center;
+    padding: 80px 20px 60px;
+}
+
+.hero h1 {
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: auto;
+    color: #57606a;
+    margin-bottom: 25px;
+}
+
+.btn-primary {
+    background-color: #24292f;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* PRICING */
+
+.pricing {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    gap: 25px;
+    padding: 40px;
+}
+
+.card {
+    flex: 1;
+    border: 1px solid #d0d7de;
+    border-radius: 12px;
+    padding: 25px;
+    position: relative;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #57606a;
+    margin-bottom: 15px;
+}
+
+.price {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.price span {
+    font-size: 14px;
+    color: #57606a;
+}
+
+.card button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.team button {
+    background-color: #24292f;
+    color: white;
+}
+
+.free button {
+    background-color: #f6f8fa;
+}
+
+.enterprise-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.dark-btn {
+    background-color: #24292f;
+    color: white;
+    flex: 1;
+}
+
+.light-btn {
+    background-color: #f6f8fa;
+    border: 1px solid #d0d7de;
+    flex: 1;
+}
+
+.badge {
+    position: absolute;
+    top: -12px;
+    right: 20px;
+    background-color: #0969da;
+    color: white;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 6px;
+}
+
+.card ul {
+    list-style: none;
+}
+
+.card ul li {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+    .pricing {
+        flex-direction: column;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+}
