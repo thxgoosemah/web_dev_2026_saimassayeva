@@ -10,7 +10,6 @@ body {
     color: #24292f;
 }
 
-/* NAVIGATION */
 
 .top-nav {
     display: flex;
@@ -66,7 +65,7 @@ nav a:hover {
     cursor: pointer;
 }
 
-/* HERO */
+
 
 .hero {
     text-align: center;
@@ -94,7 +93,7 @@ nav a:hover {
     font-weight: bold;
 }
 
-/* PRICING */
+
 
 .pricing {
     max-width: 1200px;
@@ -184,7 +183,6 @@ nav a:hover {
     margin-bottom: 8px;
 }
 
-/* RESPONSIVE */
 
 @media (max-width: 900px) {
     .pricing {
