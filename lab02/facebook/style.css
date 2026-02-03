@@ -10,7 +10,6 @@ body {
     height: 100vh;
 }
 
-/* Центр страницы */
 .container {
     display: flex;
     justify-content: center;
@@ -19,7 +18,6 @@ body {
     gap: 60px;
 }
 
-/* Левая часть */
 .left {
     max-width: 500px;
 }
@@ -36,7 +34,7 @@ body {
     line-height: 1.3;
 }
 
-/* Правая часть */
+
 .right {
     text-align: center;
 }
@@ -108,7 +106,7 @@ hr {
     font-size: 14px;
 }
 
-/* Footer */
+
 footer {
     text-align: center;
     font-size: 12px;
